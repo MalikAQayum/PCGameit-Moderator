@@ -10,8 +10,8 @@
 // @connect      spreadsheets.google.com
 // @match        https://store.steampowered.com/curator/33779114-pcgameit/admin/pending
 // @match        https://store.steampowered.com/curator/33779114-pcgameit/admin/pending/
-// @match        https://steamcommunity.com/groups/pcgameit
-// @match        https://steamcommunity.com/groups/pcgameit/
+// @match        https://steamcommunity.com/groups/pcgameit/moderator/
+// @match        https://steamcommunity.com/groups/pcgameit/moderator
 // @require     https://code.jquery.com/jquery-3.3.1.js
 // @require     https://github.com/MalikAQayum/PCGameit-Moderator/raw/master/func/jsfile00.js
 // @require     https://github.com/MalikAQayum/PCGameit-Moderator/raw/master/func/jsfile01.js
@@ -23,4 +23,4 @@
 // ==/UserScript==
 
 if(($J(location).attr("href")=='https://store.steampowered.com/curator/33779114-pcgameit/admin/pending')||($J(location).attr("href")=='https://store.steampowered.com/curator/33779114-pcgameit/admin/pending/')){ModeratorSheet();}
-if(($J(location).attr("href")=='https://steamcommunity.com/groups/pcgameit/')||($J(location).attr("href")=='https://steamcommunity.com/groups/pcgameit/')){execFunc1();}
+if(($J(location).attr("href")=='https://steamcommunity.com/groups/pcgameit/moderator')||($J(location).attr("href")=='https://steamcommunity.com/groups/pcgameit/moderator/')){execFunc1();}
