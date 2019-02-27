@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PCGameit Moderator Script
 // @namespace    https://github.com/MalikAQayum/
-// @version      0.1
+// @version      0.2
 // @description  A script to automate some of the moderator stuff.
 // @author       MalikQayum
 // @connect      api.steampowered.com
