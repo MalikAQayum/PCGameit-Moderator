@@ -1,0 +1,1 @@
+function execFunc0(data){for(var i=0;i<data.length;i++){$J.post("https://store.steampowered.com/curator/33779114/admin/ajaxrespondoffer",{sessionid:g_sessionID,clanid:clanid,appid:data[i],action:"accept"});if(data.lenght<i){window.open('https://steamcommunity.com/groups/pcgameit/','_self');}}}
